@@ -1,5 +1,7 @@
 # Introduction
 This is the final project of NYU ROB-GY 6333 Swarm Robotics done by [Irving Fang](https://irvingf7.github.io/). If you find this repo while you are doing your final project, I suggest you use this as a bit of inspiration for your own design and implementation instead of just copying my code. It's better for your learning (and grading if you got caught of course).
+
+
 ![](pics/circle.png) ![](pics/push_purple.png)
 
 # Goal
@@ -16,7 +18,9 @@ While doing all these tasks, there should be no collision between different robo
 
 # Implementation
 My design involves using [potential field theory for **obstacle avoidance**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=980728) by Naomi Ehrich Leonard and Edward Fiorelli and edge tension function for **formation control**. 
+
 Most of the above algorithms are implemented in the `python/robot.py` and `python/wall.py`.
+
 Please refer the the [report](https://github.com/IrvingF7/potential_field_swarm/blob/main/Final_Project_Report.pdf) for more details in math and implementation.
 
 # Run the Code
